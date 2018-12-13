@@ -23,6 +23,9 @@
         speech.start();
       });
 
+
+
+
       speech.onresult = function(e) {
         speech.stop();
         if(e.results[0].isFinal){
