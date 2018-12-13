@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>音声認識</title>
+  </head>
+
+  <body>
+    <h2>音声認識</h2>
+    <button id="btn">start</button>
+    <div id="content"></div>
+
     <script>
       //window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
       const speech = new webkitSpeechRecognition();
@@ -19,13 +26,6 @@
       });
 
     </script>
-  </head>
-
-  <body>
-    <h2>音声認識</h2>
-    <button id="btn">start</button>
-    <div id="content"></div>
-
   </body>
 
 </html>
